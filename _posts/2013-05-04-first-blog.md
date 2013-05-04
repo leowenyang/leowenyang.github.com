@@ -1,7 +1,8 @@
 ---
 layout: default
 img: ie7.jpg
-title: 
+title: DMM
+description : this is descripiton how to use DMM
 ---
 
 DMM
