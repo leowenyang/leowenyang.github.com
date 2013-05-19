@@ -1,5 +1,5 @@
 <div class="side radius left">
-	<h2>分类(Categorys)</h2>
+	<h2>分类</h2>
 	<ul class="side_ul">
 		{% for category in site.categories  %}
 		<li><a href="{{ site.url }}/categorys/{{ category | first  }}.html">{{ category | first  }}({{ category | last | size  }})</a></li>
