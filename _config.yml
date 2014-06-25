@@ -1,3 +1,4 @@
 baseurl: /Blog
+url: http://leowenyang.github.io
 markdown: kramdown
 paginate: 10
