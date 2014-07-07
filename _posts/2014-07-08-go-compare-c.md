@@ -11,7 +11,60 @@ keywords: go c
 
 #### 常量
 
+<table border="1">
+    <tr>
+        <th></th>
+        <th>go 语言</th>
+        <th>c  语言</th>
+    </tr>
+    <tr>
+        <td>定义</td>
+        <td>
+<pre>
+1. const PI float64 = 3.14
+2. const (
+    PI float64 = 3.14
+    True bool = true
+    )
+</pre>
+        </td>
+        <td><pre>#define PI 3.14</pre></td>
+   </tr>
+
+</table>
+
 #### 变量
+
+<table border="1">
+    <tr>
+        <th></th>
+        <th>go 语言</th>
+        <th>c  语言</th>
+    </tr>
+    <tr>
+        <td>定义</td>
+        <td>
+<pre>
+1. var x string = "hello world"
+2. x string = "hello world"
+3. x := "hello world" -- 只能用在函数内部
+</pre>
+        </td>
+        <td><pre>int x;</pre></td>
+    </tr>
+
+    <tr>
+        <td>变量范围</td>
+        <td>全局变量的范围是包，局部变量是函数</td>
+        <td>全局变量的范围是整个程序，局部变量是函数</td>
+   </tr>
+
+    <tr>
+        <td>类型转换</td>
+        <td>强制类型转换只支持同类变量转换</td>
+        <td>无限制</td>
+   </tr>
+</table>
 
 #### 内置数据类型
 
