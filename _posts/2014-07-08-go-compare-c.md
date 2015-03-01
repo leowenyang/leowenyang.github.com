@@ -20,15 +20,31 @@ keywords: go c
     <tr>
         <td>定义</td>
         <td>
-<pre>
-1. const PI float64 = 3.14
-2. const (
-    PI float64 = 3.14
-    True bool = true
-    )
-</pre>
+            <pre>
+            1. const PI float64 = 3.14
+            2. const (
+                PI float64 = 3.14
+                True bool = true
+                )
+            3. 有类型
+            </pre>
         </td>
-        <td><pre>#define PI 3.14</pre></td>
+        <td>
+            <pre>
+            1. #define PI 3.14
+            2. 无类型
+            </pre>
+        </td>
+   </tr>
+   <tr>
+    <td> 常用类型 </td>
+    <td> 
+        1. 字符常量
+        2. 字符串常量
+        3. 布尔类型常量
+        4. 数值常量
+    </td>
+    <td> 只有宏定义，没有类型常量（C++中可以有和go一样的常量定义）</td>
    </tr>
 
 </table>
